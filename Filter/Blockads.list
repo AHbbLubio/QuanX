@@ -221,15 +221,15 @@ HOST, tysdk.95516.com, REJECT
 
 # >>>>>>>>>>>>>>> ✅ Z ✅ <<<<<<<<<<<<<<
 # 知乎
-HOST, appcloud.zhihu.com, REJECT
-HOST, appcloud2.in.zhihu.com, REJECT
-HOST, crash2.zhihu.com, REJECT
-HOST, mqtt.zhihu.com, REJECT
-HOST, sugar.zhihu.com, REJECT
-HOST, zxid-m.mobileservice.cn, REJECT
-IP-CIDR, 103.41.167.237/32, REJECT
-IP-CIDR, 118.89.204.198/32, REJECT
-IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
+USER-AGENT,AVOS*, reject
+host, appcloud.zhihu.com, reject
+host, appcloud2.in.zhihu.com, reject
+host, mqtt.zhihu.com, reject
+host, sugar.zhihu.com, reject
+host, crash2.zhihu.com, reject
+host, 118.89.204.198, reject
+IP-CIDR, 118.89.204.198/32, reject
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, reject
 
 # > 中国电信
 host, ad.21cn.com, reject
